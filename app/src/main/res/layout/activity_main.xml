@@ -10,19 +10,19 @@
         android:id="@+id/obraz"
         android:layout_width="297dp"
         android:layout_height="352dp"
+        android:contentDescription="@string/image_4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.087"
-        app:srcCompat="@drawable/PeterGriffin"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/PeterGriffin" />
 
     <ImageButton
-        android:id="@+id/next"
+        android:id="@+id/Next"
         android:layout_width="155dp"
         android:layout_height="68dp"
-        android:contentDescription="@string/todo"
+        android:contentDescription="@string/image_3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.937"
@@ -33,9 +33,10 @@
         tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/previous"
         android:layout_width="155dp"
         android:layout_height="68dp"
+        android:contentDescription="@string/image_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.062"
@@ -43,14 +44,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.692"
         app:srcCompat="@drawable/poprzedni"
-        tools:ignore="SpeakableTextPresentCheck"
-        android:contentDescription="@string/todo" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/wyczysc"
         android:layout_width="76dp"
         android:layout_height="90dp"
-        android:contentDescription="@string/todo"
+        android:contentDescription="@string/image_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.098"
@@ -64,6 +64,7 @@
         android:id="@+id/kamera"
         android:layout_width="127dp"
         android:layout_height="86dp"
+        android:contentDescription="@string/image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.943"
@@ -71,8 +72,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.885"
         app:srcCompat="@drawable/kamera"
-        tools:ignore="SpeakableTextPresentCheck"
-        android:contentDescription="@string/todo" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <CheckBox
         android:id="@+id/przelacznik"
