@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">zadanie na ocene pam nr 1</string>
+    <string name="ukryj">ukryj</string>
+    <string name="image">TODO</string>
+    <string name="image_1">TODO</string>
+    <string name="image_2">TODO</string>
+    <string name="image_3">TODO</string>
+    <string name="image_4">TODO</string>
 </resources>
