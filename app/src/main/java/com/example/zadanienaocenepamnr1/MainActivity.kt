@@ -12,41 +12,41 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val obraz = findViewById<ImageView>(R.id.obraz)
+        val obraz = findViewById<ImageView>(R.id.imageView)
         val Next = findViewById<ImageButton>(R.id.Next)
         val previous = findViewById<ImageButton>(R.id.previous)
 
-        var img = "PeterGriffin"
+        var img = "person"
         Next.setOnClickListener {
-            if (img == "PeterGriffin") {
+            if (img == "person") {
                 obraz.setImageResource(R.drawable.face)
                 img = "face"
             } else if (img == "face") {
-                obraz.setImageResource(R.drawable.Kowalski)
-                img = "Kowalski"
-            } else if (img == "Kowalski") {
+                obraz.setImageResource(R.drawable.splat)
+                img = "splat"
+            } else if (img == "splat") {
                 obraz.setImageResource(R.drawable.homer_simspon)
                 img = "homersimpson"
             } else if (img == "homersimpson") {
-                obraz.setImageResource(R.drawable.)
-                img = "PeterGriffin"
+                obraz.setImageResource(R.drawable.person)
+                img = "person"
 
             }
 
         }
         previous.setOnClickListener{
-            if (img == "PeterGriffin") {
+            if (img == "person") {
                 obraz.setImageResource(R.drawable.homer_simspon)
                 img = "homersimpson"
             } else if (img == "homersimpson") {
-                obraz.setImageResource(R.drawable.Kowalski)
-                img = "Kowalski"
-            } else if (img == "Kowalski") {
+                obraz.setImageResource(R.drawable.splat)
+                img = "splat"
+            } else if (img == "splat") {
                 obraz.setImageResource(R.drawable.face)
                 img = "face"
             } else if (img == "face") {
-                obraz.setImageResource(R.drawable.PeterGriffin)
-                img = "PeterGriffin"
+                obraz.setImageResource(R.drawable.person)
+                img = "person"
 
             }
         }
