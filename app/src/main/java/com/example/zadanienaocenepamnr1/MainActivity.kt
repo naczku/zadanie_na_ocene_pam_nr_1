@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 obraz.setImageResource(R.drawable.homer_simspon)
                 img = "homersimpson"
             } else if (img == "homersimpson") {
-                obraz.setImageResource(R.drawable.PeterGriffin)
+                obraz.setImageResource(R.drawable.)
                 img = "PeterGriffin"
 
             }
