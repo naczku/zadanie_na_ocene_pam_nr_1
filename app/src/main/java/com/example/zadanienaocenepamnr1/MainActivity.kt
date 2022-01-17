@@ -8,6 +8,7 @@ import android.webkit.RenderProcessGoneDetail
 import android.widget.*
 import androidx.core.app.NotificationCompatExtras
 import androidx.core.view.isVisible
+import android.widget.CheckBox
 
 
 class MainActivity : AppCompatActivity() {
@@ -55,16 +56,9 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        if (przelacznik.isChecked) {
-            if(obraz.isVisible == true){
 
-            }
-            else{
-
-            }
-
-        }
 
 
     }
+
 }
