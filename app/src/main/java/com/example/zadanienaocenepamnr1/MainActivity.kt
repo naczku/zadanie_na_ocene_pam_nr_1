@@ -4,8 +4,11 @@ import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.View
+import android.webkit.RenderProcessGoneDetail
 import android.widget.*
 import androidx.core.app.NotificationCompatExtras
+import androidx.core.view.isVisible
+
 
 class MainActivity : AppCompatActivity() {
     @SuppressLint("WrongViewCast")
@@ -15,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val obraz = findViewById<ImageView>(R.id.imageView)
         val Next = findViewById<ImageButton>(R.id.Next)
         val previous = findViewById<ImageButton>(R.id.previous)
+        val przelacznik = findViewById<CheckBox>(R.id.przelacznik)
 
         var img = "person"
         Next.setOnClickListener {
@@ -50,6 +54,17 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
+
+        if (przelacznik.isChecked) {
+            if(obraz.isVisible == true){
+
+            }
+            else{
+
+            }
+
+        }
+
 
     }
 }
