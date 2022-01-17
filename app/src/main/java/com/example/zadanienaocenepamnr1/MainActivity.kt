@@ -55,7 +55,9 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
-
+        if (przelacznik.isChecked){
+            obraz.visibility = View.GONE
+        }
 
 
 
